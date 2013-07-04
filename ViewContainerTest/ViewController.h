@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WebViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <WebViewControllerDelegate>
 
+- (void) navBarDidPan:(UIPanGestureRecognizer *)panGesture inController:(UIViewController *)controller;
+- (void) navBarDidTap:(UIPanGestureRecognizer *)panGesture inController:(UIViewController *)controller;
+- (void) scrollViewScrolled:(UIScrollView *)webView inController:(UIViewController *)controller;
 @end

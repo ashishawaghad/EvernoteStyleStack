@@ -18,6 +18,7 @@
 		75F6DF971782ED84003894B6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75F6DF961782ED84003894B6 /* Default-568h@2x.png */; };
 		75F6DF9A1782ED84003894B6 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75F6DF981782ED84003894B6 /* MainStoryboard.storyboard */; };
 		75F6DF9D1782ED84003894B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6DF9C1782ED84003894B6 /* ViewController.m */; };
+		75F6DFA51782EF3A003894B6 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75F6DFA41782EF3A003894B6 /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		75F6DF991782ED84003894B6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		75F6DF9B1782ED84003894B6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		75F6DF9C1782ED84003894B6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		75F6DFA31782EF3A003894B6 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		75F6DFA41782EF3A003894B6 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				75F6DF9B1782ED84003894B6 /* ViewController.h */,
 				75F6DF9C1782ED84003894B6 /* ViewController.m */,
 				75F6DF871782ED84003894B6 /* Supporting Files */,
+				75F6DFA31782EF3A003894B6 /* WebViewController.h */,
+				75F6DFA41782EF3A003894B6 /* WebViewController.m */,
 			);
 			path = ViewContainerTest;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				75F6DF8D1782ED84003894B6 /* main.m in Sources */,
 				75F6DF911782ED84003894B6 /* AppDelegate.m in Sources */,
 				75F6DF9D1782ED84003894B6 /* ViewController.m in Sources */,
+				75F6DFA51782EF3A003894B6 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
