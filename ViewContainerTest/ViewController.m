@@ -14,7 +14,7 @@
 @property (nonatomic, assign) float stackOriginY, heightOfEachTab, widthMargin, animationDuration;
 @property (nonatomic, assign) int numOfTabs;
 @property (nonatomic, strong) NSMutableArray *viewControllersArray;
-@property (nonatomic, strong) NSArray *titles, *urlStrings;
+@property (nonatomic, strong) NSArray *titles, *urlStrings; 
 @end
 
 @implementation ViewController
